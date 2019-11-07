@@ -2,7 +2,7 @@
 
 I attempted to have an AI model generate music resembling Bach pieces. 
 
-#Method
+## Method
 First I downloaded Bach Chorals as midi Files
 
 The model that I chose to use was charCNN from Andrej Karpathy (https://github.com/karpathy/char-rnn). 
@@ -15,8 +15,11 @@ I manually copied that into a csv file and cleaned up the data so that it fit th
 
 Finally I converted it back into a midi file and played it. 
 
+## Data 
+A sample of the training data I used can be found in both text and mid format in /training
 
-#Results
+
+## Results
 The results from the first round of testing are located in /Samples.
 
 Clearly these are not good and are not recognizable as Bach or even music. 
